@@ -3,7 +3,7 @@
 
 double area; 
 
-int main() {
+main() {
     int opc;
     for (;;) {
         printf("1. area cuadrado\n2. area rectangulo\n3. area triangulo\n4. area circulo\n5. Salir\n");
@@ -32,7 +32,7 @@ int main() {
                 printf("Introduce la base y la altura del triangulo: ");
                 scanf("%lf %lf", &bas, &alt);
                 area = 0.5 * bas * alt;
-                printf("El area del triángulo es: %.2lf\n", area);
+                printf("El area del triangulo es: %.2lf\n", area);
                 break;
             }
             case 4: {
